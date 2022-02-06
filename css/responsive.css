@@ -1,0 +1,144 @@
+@media (min-width: 1200px) {}
+            
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner_img img{
+        padding-top: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .banner_img img {
+        width: 580px;
+        position: relative;
+        left: -202px;
+        padding-top: 20px;
+        height: 650px;
+    }
+    .left_img_three {
+        position: relative;
+        right: -490px;
+        top: -340px;
+    }
+    @keyframes shanto_three {
+        0% {
+            top: -650px;
+        }
+        100% {
+            top: -500px;
+        }
+    }
+    .banner_btn_left a {
+        padding-top: 0px;
+        padding-right: 35px;
+        padding-bottom: 10px;
+        padding-left: 35px;
+        font-size: 55px;
+        position: relative;
+        left: -390px;
+        top: -200px;
+      }
+    .banner_btn_right a {
+        padding-top: 0px;
+        padding-right: 35px;
+        padding-bottom: 10px;
+        padding-left: 35px;
+        font-size: 55px;
+        position: relative;
+        left: 350px;
+        top: -290px;
+      }
+      .banner {
+        padding-bottom: 0px;
+        margin-bottom: -180px;
+    }
+    }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .banner_img img {
+        width: 470px;
+        position: relative;
+        left: -161px;
+        padding-top: 20px;
+        height: 550px;
+    }
+    .left_img_three {
+        position: relative;
+        right: -385px;
+        top: -340px;
+    }
+    @keyframes shanto_three {
+        0% {
+            top: -550px;
+        }
+        100% {
+            top: -450px;
+        }
+    }
+    .banner_btn_left a {
+        padding-top: 0px;
+        padding-right: 40px;
+        padding-bottom: 7px;
+        padding-left: 40px;
+        font-size: 40px;
+        position: relative;
+        top: -210px;
+        left: -290px;
+    }
+    .banner_btn_right a {
+        padding-top: 0px;
+        padding-right: 40px;
+        padding-bottom: 7px;
+        padding-left: 40px;
+        font-size: 40px;
+        position: relative;
+        top: -275px;
+        left: 290px;
+    }
+    .banner {
+        padding-bottom: 0px;
+        margin-bottom: -165px;
+    }
+  }
+@media (max-width: 575.98px) {
+    .banner_img img {
+        height: 320px;
+        width: 300px;
+        padding-top: 10px;
+    }
+    
+    .banner_btn_left a {
+        padding-top: 0px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 13px;
+        font-size: 20px;
+        position: relative;
+        left: -166px;
+        top: 60px;
+    }
+    .banner_btn_right a {
+        padding-top: 0px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 13px;
+        font-size: 20px;
+        position: relative;
+        left: 150px;
+        top: 25px;
+    }
+    .left_img_three {
+        left: 50px;
+    }
+    @keyframes shanto_three {
+        0% {
+            top: 0px;
+        }
+        100% {
+            top: 55px;
+        }
+    }
+    .footer_txt li {
+        color: white;
+        font-size: 16px;
+    }
+}
